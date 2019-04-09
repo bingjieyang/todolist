@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" name="viewport"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Title</title>
+</head>
+<body>
+<div class="todoapp">
+    <header>
+        <h1 class="title">Todos</h1>
+    </header>
+    <section class="add-section">
+        <input class="add-todo" type="text" placeholder="What to be done?" autofocus>
+        <input type="checkbox" id="toggle-all" class="toggle-all">
+
+    </section>
+    <section>
+        <div class="list"></div>
+    </section>
+    <footer class="footer">
+        <div class="active"></div>
+        <div class="btn-set">
+            <button id="all-filter" class="filter">All</button>
+            <button id="active-filter" class="filter">Active</button>
+            <button id="completed-filter" class="filter">Completed</button>
+            <button id="clear-completed">Clear completed</button>
+        </div>
+        <p class="author">Author: Yang Bingjie</p>
+    </footer>
+</div>
+
+<script src="zepto.js"></script>
+<script src="model.js"></script>
+<script src="storage-provoider.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
